@@ -1,0 +1,203 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --dark-background: #2f303a;
+  --light-background: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* Футер */
+.logo-web {
+  font-family: Raleway;
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: var(--primary-text-color);
+}
+
+.main-menu-item {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.main-menu-item:hover,
+.main-menu-item:focus {
+  color: var(--accent-color);
+}
+
+.main-menu-item.current {
+  color: var(--accent-color);
+}
+
+.menu-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.menu-contacts:focus,
+.menu-contacts:hover {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.hero {
+  background: var(--dark-background);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--white-color);
+}
+button {
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--white-color);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.87;
+  background: var(--accent-color);
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 700px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--white-color);
+}
+
+/* Особенности */
+.section-title {
+  font-weight: 700;
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.section-text {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--title-text-color);
+}
+
+/* Вид деятельности */
+
+.our-activity {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--primary-text-color);
+}
+
+/* Наши сотрудники */
+.team {
+  background: var(--light-background);
+}
+
+.our-team {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--primary-text-color);
+}
+
+.name {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--primary-text-color);
+}
+
+.profession {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--title-text-color);
+}
+
+/* Футер */
+.footer {
+  background: var(--dark-background);
+}
+
+.logo-studio-footer {
+  color: var(--white-color);
+}
+
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+
+/* Портфолио страница */
+.filtres-sublist {
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.portfolio-button {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.portfolio-button.carrent {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Наши услуги */
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--primary-text-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--title-text-color);
+}
